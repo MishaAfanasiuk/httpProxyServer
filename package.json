@@ -1,0 +1,20 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "dotenv": "7.0.0",
+    "loglevel": "1.6.1",
+    "query-string": "6.4.0",
+    "request": "2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "NODE_ENV=production node app.js",
+    "dev": "NODE_ENV=development node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Misha Afanasiuk",
+  "license": "MIT"
+}

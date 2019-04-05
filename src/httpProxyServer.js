@@ -11,8 +11,8 @@ class HttpProxyServer {
 
   start(port){
     const server = http.createServer(this.requestHandler);
-    // server.listen(port);
-    server.listen();
+    server.listen(port);
+    // server.listen();
     return server;
   }
 
